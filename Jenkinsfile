@@ -13,7 +13,7 @@ pipeline{
 		}
 		stage("execute"){
             steps{
-                        echo "Executing package"
+                    echo "Executing package"
                         }
                 }
                 stage("Main"){
