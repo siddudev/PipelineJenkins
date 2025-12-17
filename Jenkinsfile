@@ -12,7 +12,7 @@ pipeline{
 			}
 		}
 		stage("execute"){
-                steps{
+            steps{
                         echo "Executing package"
                         }
                 }
