@@ -16,9 +16,9 @@ pipeline{
                     echo "Executing package"
                         }
                 }
-                stage("Main"){
+                stage("Mail"){
                         steps{
-                                echo "Main sent successfully"
+                                echo "Mail sent successfully"
                         }
                 }
 	}
