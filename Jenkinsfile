@@ -14,13 +14,13 @@ pipeline{
 		stage("execute"){
             steps{
                 echo "Executing package"
-                        }
-                }
-                stage("Mail"){
-                        steps{
-                                echo "Mail sent successfully"
-                        }
-                }
+            }
+        }
+        stage("Mail"){
+            steps{
+                echo "Mail sent successfully"
+            }
+        }
 	}
 }
 
